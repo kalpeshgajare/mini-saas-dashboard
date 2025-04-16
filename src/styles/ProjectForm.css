@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.project-form-container {
+  @apply bg-white p-6 rounded-xl shadow-md max-w-md mx-auto;
+}
+
+.project-form-heading {
+  @apply text-2xl font-bold mb-4;
+}
+
+.project-form {
+  @apply space-y-4;
+}
+
+.project-input {
+  @apply w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500;
+}
+
+.project-form-buttons {
+  @apply flex justify-end gap-4;
+}
+
+.cancel-btn {
+  @apply bg-gray-500 text-white px-4 py-2 rounded-lg hover:bg-gray-600 transition duration-300;
+}
+
+.submit-btn {
+  @apply bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition duration-300;
+}

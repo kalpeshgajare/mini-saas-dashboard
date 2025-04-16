@@ -1,0 +1,26 @@
+/* src/styles/Login.css */
+
+.login-container {
+    @apply min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-400 via-purple-500 to-pink-500;
+  }
+  
+  .login-box {
+    @apply bg-white p-10 rounded-3xl shadow-2xl text-center w-full max-w-md;
+  }
+  
+  .login-icon-img {
+    @apply w-20 h-20 mx-auto mb-4 ;
+  }  
+
+  .login-title {
+    @apply text-3xl font-bold text-gray-800 mb-4;
+  }
+  
+  .login-subtext {
+    @apply text-gray-600 mb-8;
+  }
+  
+  .login-button {
+    @apply bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-xl w-full font-medium transition duration-300 ease-in-out transform hover:scale-105;
+  }
+  

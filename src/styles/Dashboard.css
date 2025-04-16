@@ -1,0 +1,71 @@
+/* Dashboard.css */
+
+/* styles/Dashboard.css */
+
+.user-bar {
+    @apply bg-white p-4 mb-6 rounded-xl shadow-md flex items-center justify-between;
+  }
+  
+  .user-info {
+    @apply flex items-center gap-4;
+  }
+  
+  .user-avatar {
+    @apply w-12 h-12 rounded-full border-2 border-indigo-500 object-cover;
+  }
+  .user-name {
+    @apply font-semibold text-indigo-600;
+  }
+  
+  .user-email {
+    @apply text-sm text-gray-600;
+  }
+  
+  .logout-button {
+    @apply bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-lg transition;
+  }
+  
+.dashboard-container {
+    @apply min-h-screen bg-gray-50 p-6;
+  }
+  
+  .projects-container {
+    @apply bg-white p-6 rounded-xl shadow-md;
+  }
+  
+  .projects-title {
+    @apply text-2xl font-bold text-indigo-600 mb-4;
+  }
+  
+  .add-project-btn {
+    @apply bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg mb-4 transition duration-300 ease-in-out transform hover:scale-105;
+  }
+  
+  .projects-list {
+    @apply space-y-4;
+  }
+  
+  .project-card {
+    @apply p-4 bg-indigo-50 border-l-4 border-indigo-400 rounded-md transition-all duration-300 transform hover:scale-105 hover:shadow-lg;
+  }
+  
+  .project-title {
+    @apply text-lg font-bold text-indigo-800;
+  }
+  
+  .project-description {
+    @apply text-sm text-indigo-700;
+  }
+  
+  .project-actions {
+    @apply flex gap-4 mt-2;
+  }
+  
+  .edit-btn {
+    @apply text-blue-500 hover:text-blue-600 transition duration-300 transform hover:scale-110;
+  }
+  
+  .delete-btn {
+    @apply text-red-500 hover:text-red-600 transition duration-300 transform hover:scale-110;
+  }
+  
