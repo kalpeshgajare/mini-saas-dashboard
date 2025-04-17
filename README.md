@@ -5,10 +5,11 @@ Whether you're building a portfolio, a client workspace, or an internal tool, th
 
 <br />
 
-### Visit Site
-[Click here](https://kalpeshgajare.github.io/mini-saas-dashboard/)
+### Live Demo
+[Netlify](minisaasdashboard.netlify.app)
 
 <br />
+
 
 ### Features
 - Google Authentication via Firebase
@@ -19,4 +20,58 @@ Whether you're building a portfolio, a client workspace, or an internal tool, th
 - Firestore backend for real-time database storage
 
   <br />
+
+### Setup & Installation Instructions
+#### Prerequisites
+Ensure you have Node.js and npm installed on your machine.
+Create a Firebase project and set up Authentication and Firestore.
+Follow [this Firebase guide](https://firebase.google.com/docs/web/setup) to create a Firebase project.
+#### 1. Clone the Repository
+```bash
+git clone https://github.com/kalpeshgajare/mini-saas-dashboard.git
+cd mini-saas-dashboard
+```
+#### 2. Install Dependencies
+```bash
+npm install
+```
+
+### How to Use
+#### Authentication
+- Click on the Sign In with Google button to log in using your Google account.
+- Once logged in, you will be redirected to the Dashboard page where you can add, edit, and delete your projects.
+
+#### Project Management
+- To add a new project, click the + Add Project button.
+- You can edit or delete projects by clicking the Edit or Delete buttons next to each project.
+- All changes are saved in Firebase Firestore and persist across sessions.
+
+### Folder Structure
+```tree
+my-saas-dashboard/
+├── public/                  # Static files
+│   └── index.html
+├── src/
+│   ├── assets/              # Images or static assets
+│   ├── components/          # Reusable UI components (buttons, cards, etc.)
+│   ├── context/             # Auth context for managing login state
+│   │   └── AuthContext.jsx
+│   ├── firebase/            # Firebase configuration
+│   │   └── config.js
+│   ├── pages/               # Main views/pages (Dashboard, Login, etc.)
+│   │   ├── Dashboard.jsx
+│   │   ├── Login.jsx
+│   │   └── ProjectForm.jsx
+│   ├── styles/              # Tailwind or custom CSS (if any)
+│   │   └── Dashboard.css
+│   ├── App.jsx              # App routes and structure
+│   ├── main.jsx             # Entry point
+│   └── index.css            # Tailwind base config
+├── .gitignore
+├── package.json
+├── README.md
+└── vite.config.js          # Vite configuration
+```
+
+
 
