@@ -6,7 +6,7 @@ Whether you're building a portfolio, a client workspace, or an internal tool, th
 <br />
 
 ### Live Demo
-[Netlify](minisaasdashboard.netlify.app)
+[Netlify](https://minisaasdashboard.netlify.app))
 
 <br />
 
