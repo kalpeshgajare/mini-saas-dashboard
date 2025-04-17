@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/mini-saas-dashboard/static/css/main.ab0960f2.css",
-    "main.js": "/mini-saas-dashboard/static/js/main.c36a9a04.js",
+    "main.js": "/mini-saas-dashboard/static/js/main.46491468.js",
     "static/js/453.77b89389.chunk.js": "/mini-saas-dashboard/static/js/453.77b89389.chunk.js",
     "index.html": "/mini-saas-dashboard/index.html",
     "main.ab0960f2.css.map": "/mini-saas-dashboard/static/css/main.ab0960f2.css.map",
-    "main.c36a9a04.js.map": "/mini-saas-dashboard/static/js/main.c36a9a04.js.map",
+    "main.46491468.js.map": "/mini-saas-dashboard/static/js/main.46491468.js.map",
     "453.77b89389.chunk.js.map": "/mini-saas-dashboard/static/js/453.77b89389.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab0960f2.css",
-    "static/js/main.c36a9a04.js"
+    "static/js/main.46491468.js"
   ]
 }
