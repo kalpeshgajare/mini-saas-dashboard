@@ -3,12 +3,9 @@ A modern, responsive SaaS-style dashboard built using React, Tailwind CSS, and F
 
 Whether you're building a portfolio, a client workspace, or an internal tool, this project serves as a solid starting point for scalable web apps that require authentication and per-user data management.
 
-<br />
 
 ### Live Demo
 [Netlify](https://minisaasdashboard.netlify.app)
-
-<br />
 
 
 ### Features
@@ -115,6 +112,12 @@ Contributions are always welcome! Feel free to submit an issue or a pull request
 - [React](react.dev)
 - [Firebase](firebase.google.com)
 - [Tailwind CSS](tailwindcss.com)
+
+## 📄 License
+
+This project is licensed under the **MIT License**.  
+You are free to use, modify, and distribute this software for any purpose, with proper attribution.  
+See the [LICENSE](LICENSE) file for full details.
 
 
 
